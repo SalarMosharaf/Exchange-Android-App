@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#000000"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtTitle"
+            style="@style/Theme.AppCompat.NoActionBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:text="هشدار !!"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#FF0303"
+            android:textColorHint="#FF0000" />
+
+        <View
+            android:id="@+id/viewDivider"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#fff"
+            android:backgroundTint="@color/white"
+            app:layout_constraintBottom_toBottomOf="@id/txtTitle" />
+
+        <TextView
+            style="@style/Theme.Design.NoActionBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:textSize="18sp"
+            android:text="برای ارسال درخواست خرید سهام لطفا اتصال اینترنت خود را چک کنید"
+            android:textColorHint="#FFF" />
+
+
+        <Button
+            android:id="@+id/btnOk"
+            style="@style/Theme.Design.NoActionBar"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="20dp"
+            android:text="باشه"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+</LinearLayout>

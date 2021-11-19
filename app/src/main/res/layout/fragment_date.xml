@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="480dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".DateFragment">
+
+    <ir.mirrajabi.persiancalendar.PersianCalendarView
+        android:id="@+id/calendar"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        app:pcv_colorBackground="#FFFFFF"
+        app:pcv_colorDayName="#808080"
+        app:pcv_colorHoliday="#ffd506"
+        app:pcv_colorHolidaySelected="#000000"
+        app:pcv_colorNormalDaySelected="#000000"
+        app:pcv_colorNormalDay="#000000"
+        app:pcv_todayBackground="@drawable/today_back"
+        app:pcv_eventUnderlineColor="#02f0f0"
+        app:pcv_fontSize="20sp"
+        app:pcv_headersFontSize="18sp" />
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="480dp"
+    tools:context=".Price_QuantityFragment">
+
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:layout_centerInParent="true">
+
+            <EditText
+                android:id="@+id/quantity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:lines="1"
+                android:background="@drawable/back_edittext"
+                android:textColorHint="@color/black"
+                android:layout_margin="6dp"
+                android:gravity="center"
+                android:hint="حجم خرید"/>
+
+            <EditText
+                android:id="@+id/price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lines="1"
+                android:padding="16dp"
+                android:gravity="center"
+                android:background="@drawable/back_edittext"
+                android:textColorHint="@color/black"
+                android:layout_margin="6dp"
+                android:hint="قیمت"/>
+
+        </LinearLayout>
+
+</RelativeLayout>
